@@ -9,8 +9,7 @@
     * ColMap
     * Autodesk ReCap
 
-* Agisoft Metashape (née Photoscan) is used by many in the humanities
-field
+* Agisoft Metashape (née Photoscan) is used by many in the humanities field
     * This is what is available in the DHI Lab
         * As of 2-26-19, the MSU Digital Scholarship Lab in the Library has not updated from Agisoft Photoscan
     * If you create models using Photoscan, they can be opened in Metashape but projects started in Metashape cannot be opened in Photoscan
@@ -31,11 +30,9 @@ accelerated processing” is selected (at the bottom of the window)
 * **File --> Save As** – name the project
 
 ### III. Add Photos
-
-* Click Add Chunk icon then Add Photos icon or **File --> Add
-Photos**
-* Terminology: ‘camera’ = an individual photo in Agisoft
-* Highlight/select all the photos you want to include then click **Open**
+* Click Add Chunk icon then Add Photos icon or **File --> Add Photos**
+      * Terminology: ‘camera’ = an individual photo in Agisoft
+      * Highlight/select all the photos you want to include then click **Open**
 
 * In photo pane, highlight all the photos from one rotation/pass
       * **Right click --> Move Cameras --> New Camera Group**
