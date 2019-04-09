@@ -32,8 +32,8 @@
         * Do this for all three rotations of your photos
         * This tells the Agisoft that all photos in this folder are from the same pass to help it align the photos
    
-   
-                           <img src="img/img1.png" width="70%">        
+
+      <img src="img/img1.png" width="70%">        
 
 
 ### IV. Apply Mask
