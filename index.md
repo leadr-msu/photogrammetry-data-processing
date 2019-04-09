@@ -18,11 +18,13 @@ field
 **Metashape Workflow**
 * Create a mask before opening Metashape – see other handout on how to do
 this
+
 I. Open Metashape
-a. Tools  Preferences  GPU – select the listed graphics card and
+
+* **Tools --> Preferences --> GPU** – select the listed graphics card and
 make sure that the option to “use CPU when performing GPU
 accelerated processing” is selected (at the bottom of the window)
-i. This accelerates the processing time for model-building
+      *This accelerates the processing time for model-building
 
 II. Create a new project
 a. File  Save As – name the project
