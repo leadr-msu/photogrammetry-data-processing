@@ -23,7 +23,7 @@ this
 * **Tools --> Preferences --> GPU** – select the listed graphics card and
 make sure that the option to “use CPU when performing GPU
 accelerated processing” is selected (at the bottom of the window)
-      * This accelerates the processing time for model-building
+    * This accelerates the processing time for model-building
 
 ### II. Create a new project
 
