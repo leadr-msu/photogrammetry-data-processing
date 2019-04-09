@@ -34,8 +34,8 @@ accelerated processing” is selected (at the bottom of the window)
 
 * Click Add Chunk icon then Add Photos icon or **File --> Add
 Photos**
-      * Terminology: ‘camera’ = an individual photo in Agisoft
-      * Highlight/select all the photos you want to include then click **Open**
+* Terminology: ‘camera’ = an individual photo in Agisoft
+* Highlight/select all the photos you want to include then click **Open**
 
 * In photo pane, highlight all the photos from one rotation/pass
       * **Right click --> Move Cameras --> New Camera Group**
