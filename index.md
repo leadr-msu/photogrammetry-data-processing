@@ -1,6 +1,6 @@
 # Modeling Workshop 2: Data Processing
 
-**Data processing for photogrammetry**
+## **Data processing for photogrammetry**
 * Numerous programs available for photogrammetric model building
     * Agisoft
     * 3DF Zephyr
