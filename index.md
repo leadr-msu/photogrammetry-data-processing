@@ -33,7 +33,9 @@
         * This tells the Agisoft that all photos in this folder are from the same pass to help it align the photos
    
 
-      <img src="img/img1.png" width="70%">        
+      <img src="img/img1.png" width="70%">   
+      
+      <img src="img/img2.png" width="70%"> 
 
 
 ### IV. Apply Mask
@@ -72,6 +74,9 @@
 * Rotate the model by left-clicking and dragging, pan the model by right-clicking and dragging, zoom in and out with the click wheel
 * There will likely be free floating data points around the model
 * Use the **Free-Form Selection** tool
+
+      <img src="img/img4.png" width="70%"> 
+
    * Left click and drag to highlight the floating points that are not part of the object – they should turn pink
       * Click **Delete** on the keyboard to delete the points
    * Repeat this step until you have a mostly clean model
