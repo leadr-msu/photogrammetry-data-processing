@@ -52,25 +52,22 @@
    * If not, you can toggle the tolerance and rerun the mask
       * Higher tolerance = more aggressive masking
 
-V. Align Photos
-a. Aligning the photos creates a sparse cloud model of the object – a
-few points that give you the general model but is not filled in
-b. If using two chunks, go to the toolbar, click Workflow  Batch
-Process
-i. In the window that pops up, click Add  Align Photos
-ii. General presets:
-1. Accuracy: Medium or High
-a. I generally run on medium and then rerun on
-high if there are noticeable problems
-2. Pair preselection: Disabled (default)
-iii. Advanced presets:
-1. Key point limit: 40,000
-2. Tie point limit: 10,000
-3. Apply masks to: key points
-4. Adaptive camera model fitting (leave unchecked)
-iv. Click Okay
-c. Click Add again, select Optimize Alignment (all presets fine) 
-Okay  Okay (again) – this should begin rendering
+### V. Align Photos
+* Aligning the photos creates a sparse cloud model of the object – a few points that give you the general model but is not filled in
+* If using two chunks, go to the toolbar, click **Workflow --> Batch Process**
+   * In the window that pops up, click Add  Align Photos
+   * General presets:
+      * Accuracy: Medium or High
+         * I generally run on medium and then rerun on high if there are noticeable problems
+      * Pair preselection: Disabled (default)
+   * Advanced presets:
+      * Key point limit: 40,000
+      * Tie point limit: 10,000
+      * Apply masks to: key points
+      * Adaptive camera model fitting (leave unchecked)
+   * Click Okay
+* Click **Add** again, select **Optimize Alignment (all presets fine) -->
+Okay --> Okay (again)** – this should begin rendering
 d. If completed correctly, you should see a rough model of the object
 VI. Edit the sparse cloud (the rough model)
 a. Rotate the model by left-clicking and dragging, pan the model by
