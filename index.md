@@ -1,4 +1,5 @@
-# Photogrammetry - Data Processing
+# Photogrammetry - Data Processing Tutorial
+Created by Jack Biggs
 
 * Numerous programs available for photogrammetric model building
     * Agisoft
