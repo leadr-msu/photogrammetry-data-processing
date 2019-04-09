@@ -36,33 +36,21 @@
         * Do this for all three rotations of your photos
         * This tells the Agisoft that all photos in this folder are from the same pass to help it align the photos
 
-IV. Apply Mask
-a. File  Import  Import Masks
-b. Presets that should be selected:
-i. Method: From
-Background
-ii. Operation: Replacement
-iii. Filename
-template: likely this will
-just be mask.jpg
-iv. Tolerance: 25
-(can be changed
-depending on how the
-mask performs)
-v. Apply to: All
-cameras
+### IV. Apply Mask
+* **File --> Import --> Import Masks**
+* Presets that should be selected:
+      * Method: From Background
+      * Operation: Replacement
+      * Filename template: likely this will just be mask.jpg
+      * Tolerance: 25 (can be changed depending on how the mask performs)
+      * Apply to: All cameras
 
-c. You will be prompted to choose
-the folder where the mask is housed – it needs to create a path to
-that image
-i. Navigate to where the mask is located – the actual mask
-image will not be shown in the folder
-1. Click Okay
-
-d. Once the mask has loaded (should take a few minutes), click on a
-few photos to make sure the mask was applied correctly
-i. If not, you can toggle the tolerance and rerun the mask
-1. Higher tolerance = more aggressive masking
+* You will be prompted to choose the folder where the mask is housed – it needs to create a path to that image
+      * Navigate to where the mask is located – the actual maskimage will not be shown in the folder
+            * Click **Okay**
+* Once the mask has loaded (should take a few minutes), click on a few photos to make sure the mask was applied correctly
+      * If not, you can toggle the tolerance and rerun the mask
+            * Higher tolerance = more aggressive masking
 
 V. Align Photos
 a. Aligning the photos creates a sparse cloud model of the object – a
