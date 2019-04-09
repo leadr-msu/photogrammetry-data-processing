@@ -79,6 +79,9 @@
 
    * Left click and drag to highlight the floating points that are not part of the object – they should turn pink
       * Click **Delete** on the keyboard to delete the points
+      
+ <img src="img/img5.png" width="70%"> 
+      
    * Repeat this step until you have a mostly clean model
       * Hit the spacebar to toggle between panning/rotating with the mouse and the free-form selection tool
 * Change the bounding region – the bounding region is the box around the model
