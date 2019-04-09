@@ -19,16 +19,18 @@ field
 * Create a mask before opening Metashape – see other handout on how to do
 this
 
-I. Open Metashape
+### I. Open Metashape
 
 * **Tools --> Preferences --> GPU** – select the listed graphics card and
 make sure that the option to “use CPU when performing GPU
 accelerated processing” is selected (at the bottom of the window)
-      *This accelerates the processing time for model-building
+      * This accelerates the processing time for model-building
 
-II. Create a new project
-a. File  Save As – name the project
-III. Add Photos
+### II. Create a new project
+
+* **File --> Save As** – name the project
+
+### III. Add Photos
 a. Click Add Chunk icon then Add Photos icon or File  Add
 Photos
 i. Terminology: ‘camera’ = an individual photo in Agisoft
