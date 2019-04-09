@@ -86,6 +86,9 @@
       * Hit the spacebar to toggle between panning/rotating with the mouse and the free-form selection tool
 * Change the bounding region – the bounding region is the box around the model
    * On the toolbar, select the bounding region icon
+   
+   <img src="img/img6.png" width="70%"> 
+   
       * Rotate the region so that the object is lined up with the edges and walls of the box
       * Resize the region by clicking and dragging the corners so that the box closely encompasses the object
       * This process tells Agisoft to ignore everything outside of the bounding region and to only build what is within it – this decreases rendering time as well as editing time in the next step
