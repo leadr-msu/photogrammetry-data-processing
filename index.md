@@ -55,7 +55,7 @@
 ### V. Align Photos
 * Aligning the photos creates a sparse cloud model of the object – a few points that give you the general model but is not filled in
 * If using two chunks, go to the toolbar, click **Workflow --> Batch Process**
-   * In the window that pops up, click Add  Align Photos
+   * In the window that pops up, click **Add --> Align Photos**
    * General presets:
       * Accuracy: Medium or High
          * I generally run on medium and then rerun on high if there are noticeable problems
@@ -68,22 +68,19 @@
    * Click Okay
 * Click **Add** again, select **Optimize Alignment (all presets fine) -->
 Okay --> Okay (again)** – this should begin rendering
-d. If completed correctly, you should see a rough model of the object
-VI. Edit the sparse cloud (the rough model)
-a. Rotate the model by left-clicking and dragging, pan the model by
+* If completed correctly, you should see a rough model of the object
+
+### VI. Edit the sparse cloud (the rough model)
+* Rotate the model by left-clicking and dragging, pan the model by
 right-clicking and dragging, zoom in and out with the click wheel
-b. There will likely be free floating data points around the model
-c. Use the Free-Form Selection tool
-i. Left click and drag to highlight the floating points that are not
+* There will likely be free floating data points around the model
+* Use the Free-Form Selection tool
+   * Left click and drag to highlight the floating points that are not
 part of the object
 – they should
 turn pink
-1. Click
-Delete on
-the
-keyboard
-to delete the points
-ii. Repeat this step until you have a mostly clean model
+      * Click **Delete** on the keyboard to delete the points
+         * Repeat this step until you have a mostly clean model
 1. Hit the spacebar to toggle between panning/rotating
 with the mouse and the free-form selection tool
 
