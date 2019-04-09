@@ -89,137 +89,83 @@
 * Click **Okay**
    * This step will take longer than aligning the photos
 
-VIII. Editing the Dense Cloud
-a. Once the model is finished building, you will need to click on the
-dense cloud icon to reveal it
-b. Edit the dense cloud with the Free-Form Selection tool like with
-the sparse cloud – click, drag, and delete
-i. Also, delete all the points that are not part of the model – any
-scale bars, supports, etc.
+### VIII. Editing the Dense Cloud
+* Once the model is finished building, you will need to click on the dense cloud icon to reveal it
+* Edit the dense cloud with the **Free-Form Selection** tool like with the sparse cloud – click, drag, and delete
+   * Also, delete all the points that are not part of the model – any scale bars, supports, etc.
+   * If bad points are left around the borders, edges, or surface of the object in the dense cloud, they are likely to be included in the final model so be meticulous in this step
 
-ii. If bad points are left around the borders, edges, or surface of
-the object in the dense cloud, they are likely to be included in
-the final model so be meticulous in this step
+### IX. Build the Mesh and Texture
+* Building the mesh and texture closes the gaps between the points in the dense clouds by creating a mesh using polygons then adds the textures interpreted from the photos onto that mesh, creating a life-like 3D model
+* Once you are satisfied with the dense cloud, click **Workflow --> Batch Process**
+   * **Add --> Build Mesh**
+      * **General** presets:
+         * **Surface type: Arbitrary**
+         * **Source data: Dense Cloud**
+         * **Face count: High**
+         * **Custom face count: leave as is**
+      * **Advanced** presets (defaults should be fine):
+         * **Interpolation: Enabled**
+         * **Point classes: All**
+   * **Add --> Build Texture**
+      * General presets – default should be fine
+   * Click **Okay** (be sure to **Remove** the **Build Dense Cloud** option if it is still in the queue)
 
-IX. Build the Mesh and Texture
-a. Building the mesh and texture closes the gaps between the points
-in the dense clouds by creating a mesh using polygons then adds
-the textures interpreted from the photos onto that mesh, creating a
-life-like 3D model
-b. Once you are satisfied with the dense cloud, click Workflow 
-Batch Process
-i. Add  Build Mesh
-1. General presets:
-a. Surface type: Arbitrary
-b. Source data: Dense Cloud
-c. Face count: High
-d. Custom face count: leave as is
-2. Advanced presets (defaults should be fine):
-a. Interpolation: Enabled
-b. Point classes: All
-
-ii. Add  Build Texture
-1. General presets – default should be fine
-iii. Click Okay (be sure to Remove the Build Dense
-Cloud option if it is still in the queue)
-
-## X. Checking the model
-* Once the mesh and texture have fully rendered, click on the
-textured model icon
+### X. Checking the model
+* Once the mesh and texture have fully rendered, click on the textured model icon
    * This is the pyramid icon just to the left of the dense cloud icon
       * A drop-down menu will appear – click on the last option
 * If your model is only using one chunk, rotate and check the model to see that it accurately represents the object
+   * If areas exist that are inaccurate (blobs or weird spots, misshapen areas, etc.) toggle back to the dense cloud and edit as needed
+      * Do this until you are satisfied that you have deleted all the bad points
+      * Rerun the mesh and texture – check model again
+      * If you have one chunk, you’re almost finished – proceed to step XI
+      * If you have two chunks, proceed to step XII
 
-i. If areas exist that are inaccurate (blobs or weird spots,
-misshapen areas, etc.) toggle back to the dense cloud and
-edit as needed
-1. Do this until you are satisfied that you have deleted all
-the bad points
-2. Rerun the mesh and texture – check model again
-3. If you have one chunk, you’re almost finished –
-proceed to step XI
-4. If you have two chunks, proceed to step XII
+### XI. Exporting the model
+* You can export your model into a number of different file types
+* **File --> Export --> Export Model**
+   * Name you model and save your model in the file type you need
+   * Most programs read Wavefront OBJ (.obj) and/or STL models (.stl)
+      * Can go back and export in any of the types at any time
 
-XI. Exporting the model
-a. You can export your model into a number of different file types
-b. File  Export  Export Model
-i. Name you model and save your model in the file type you
-need
-ii. Most programs read Wavefront OBJ (.obj) and/or STL
-models (.stl)
-1. Can go back and export in any of the types at any
-time
-
-XII. Merging two textured models/chunks
-a. If your final model will be made up of two chunks, you must merge
-the chunks
-i. As a quick test, click on Workflow  Batch Process
-1. Add: Align chunks
-a. General presets:
-i. Method: Point based
-b. Image Matching:
-i. Accuracy: Medium
-ii. Key point limit: 40,000
-iii. Apply masks to: Tie points
-
-2. Add: Merge chunks
-a. Make sure only ‘Merge dense clouds’ is
-selected
-3. Click okay
-4. This will create a new chunk made up of the two
-merged chunks
-a. Click on the dense cloud for this chunk – if
-object is correct, begin editing the dense cloud
-again; if not, skip to step XII b
-b. Rebuild the mesh and texture of the new
-merged chunk: Workflow  Batch Process
-i. Add: Build mesh – same presets as
-before EXCEPT:
-1. Apply to: SELECTION – then
-make sure only the merged
-chunk is selected
-
-ii. Add: Build texture – same presets as
-before EXCEPT:
-1. Apply to – SELECTION – again
-only the merge chunk should be
-selected
-
-c. Once this is finished, you should have a
-complete model – go back to steps X and XI
-b. Once both of your chunks have been meshed and textured, find
-points of commonality/overlap between the two models
-i. These can be stains on the objects, little spots, anything that
-stands out
-
-c. Zoom in very close to the spot on the chunk 1 model and right click
-on the precise location  Add marker
-i. This will add a marker/pin to the model in that location – be
-sure the marker icon (the flag on the right side) is selected
-d. Now go to the chunk two model, zoom in to the exact location
-where the marker is on chunk 1, right click  Add marker
-i. Both models should now have a ‘Marker 1’
-e. Repeat these steps until you have at least 4 markers per chunk –
-more is better and will give you a more accurate merged model
-i. Make sure that all markers are in the exact same place per
-chunk and in the exact same order
-1. i.e. the placement of Marker 3 is in the exact same
-location for both chunks
-
-f. Once you have all your markers placed on both chunks, click on
-Workflow  Batch Process
-i. Add: Align chunks (make sure both chunks are selected in
-the dialogue box)
-1. General presets:
-a. Method: Marker based (all other presets are
-grayed out at this point – cannot toggle)
-ii. Add: Merge chunks (make sure both are selected)
-1. Only merge dense clouds  Okay
-
-g. The new merged chunk should resemble the object but the dense
-cloud will have a lot of bad/floating data points
-i. Repeat steps VIII and IX to clean up the dense cloud and
-build the mesh and the texture
-ii. When building the mesh and texture, be sure to apply these
-to the merged chunk, not all three chunks
-iii. Go to back to step X and XI, then you’re finished!
+### XII. Merging two textured models/chunks
+* If your final model will be made up of two chunks, you must merge the chunks
+   * As a quick test, click on **Workflow --> Batch Process**
+      * **Add: Align chunks**
+         * **General** presets:
+            * **Method: Point based**
+         * **Image Matching:**
+            * **Accuracy: Medium**
+            * **Key point limit: 40,000**
+            * **Apply masks to: Tie points**
+      * **Add: Merge chunks**
+         * Make sure only ‘Merge dense clouds’ is selected
+      * Click **Okay**
+      * This will create a new chunk made up of the two merged chunks
+         * Click on the dense cloud for this chunk – if object is correct, begin editing the dense cloud again; if not, skip to step **XII b**
+         * Rebuild the mesh and texture of the new merged chunk: **Workflow --> Batch Process**
+            * **Add: Build mesh** – same presets as before EXCEPT:
+               * **Apply to: SELECTION** – then make sure only the merged chunk is selected
+            * **Add: Build texture** – same presets as before _EXCEPT_:
+               * **Apply to – SELECTION** – again only the merge chunk should be selected
+         * Once this is finished, you should have a complete model – go back to steps **X** and **XI**
+* Once both of your chunks have been meshed and textured, find points of commonality/overlap between the two models
+   * These can be stains on the objects, little spots, anything that stands out
+* Zoom in very close to the spot on the chunk 1 model and right click on the precise location **--> Add marker**
+   * This will add a marker/pin to the model in that location – be sure the marker icon (the flag on the right side) is selected
+* Now go to the chunk two model, zoom in to the exact location where the marker is on **chunk 1**, right click **--> Add marker**
+   * Both models should now have a ‘Marker 1’
+* Repeat these steps until you have at least 4 markers per chunk – more is better and will give you a more accurate merged model
+   * Make sure that all markers are in the exact same place per chunk and in the exact same order
+      * i.e. the placement of Marker 3 is in the exact same location for both chunks
+* Once you have all your markers placed on both chunks, click on **Workflow --> Batch Process**
+   * **Add: Align chunks** (make sure both chunks are selected in the dialogue box)
+      * **General** presets:
+         * **Method: _Marker based_** (all other presets are grayed out at this point – cannot toggle)
+   * **Add: Merge chunks** (make sure both are selected)
+      * Only **merge dense clouds** and **merge markers --> Okay**
+* The new merged chunk should resemble the object but the dense cloud will have a lot of bad/floating data points
+   * Repeat steps **VIII** and **IX** to clean up the dense cloud and build the mesh and the texture
+   * When building the mesh and texture, be sure to apply these to the merged chunk, not all three chunks
+   * Go to back to step X and XI, then you’re finished!
