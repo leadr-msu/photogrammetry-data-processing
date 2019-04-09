@@ -75,7 +75,7 @@
 * There will likely be free floating data points around the model
 * Use the **Free-Form Selection** tool
 
-      <img src="img/img4.png" width="70%"> 
+<img src="img/img4.png" width="70%"> 
 
    * Left click and drag to highlight the floating points that are not part of the object – they should turn pink
       * Click **Delete** on the keyboard to delete the points
