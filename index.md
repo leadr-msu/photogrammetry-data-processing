@@ -15,14 +15,11 @@
     * If you create models using Photoscan, they can be opened in Metashape but projects started in Metashape cannot be opened in Photoscan
     
 **Metashape Workflow**
-* Create a mask before opening Metashape – see other handout on how to do
-this
+* Create a mask before opening Metashape – see other handout on how to do this
 
 ### I. Open Metashape
 
-* **Tools --> Preferences --> GPU** – select the listed graphics card and
-make sure that the option to “use CPU when performing GPU
-accelerated processing” is selected (at the bottom of the window)
+* **Tools --> Preferences --> GPU** – select the listed graphics card and make sure that the option to “use CPU when performing GPU accelerated processing” is selected (at the bottom of the window)
     * This accelerates the processing time for model-building
 
 ### II. Create a new project
