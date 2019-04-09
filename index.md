@@ -169,3 +169,6 @@
    * Repeat steps **VIII** and **IX** to clean up the dense cloud and build the mesh and the texture
    * When building the mesh and texture, be sure to apply these to the merged chunk, not all three chunks
    * Go to back to step X and XI, then you’re finished!
+   
+-----
+### Return to [LEADR's Resources list](https://leadr-msu.github.io/)
