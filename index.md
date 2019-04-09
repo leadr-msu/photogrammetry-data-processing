@@ -140,16 +140,12 @@ ii. Add  Build Texture
 iii. Click Okay (be sure to Remove the Build Dense
 Cloud option if it is still in the queue)
 
-X. Checking the model
-a. Once the mesh and texture have fully rendered, click on the
+## X. Checking the model
+* Once the mesh and texture have fully rendered, click on the
 textured model icon
-i. This is the pyramid icon just to the left of the dense cloud
-icon
-1. A drop-down menu will appear – click on the last
-option
-
-b. If your model is only using one chunk, rotate and check the model
-to see that it accurately represents the object
+   * This is the pyramid icon just to the left of the dense cloud icon
+      * A drop-down menu will appear – click on the last option
+* If your model is only using one chunk, rotate and check the model to see that it accurately represents the object
 
 i. If areas exist that are inaccurate (blobs or weird spots,
 misshapen areas, etc.) toggle back to the dense cloud and
