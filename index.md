@@ -46,11 +46,11 @@
    * Apply to: All cameras
 
 * You will be prompted to choose the folder where the mask is housed – it needs to create a path to that image
-      * Navigate to where the mask is located – the actual maskimage will not be shown in the folder
-            * Click **Okay**
+   * Navigate to where the mask is located – the actual maskimage will not be shown in the folder
+      * Click **Okay**
 * Once the mask has loaded (should take a few minutes), click on a few photos to make sure the mask was applied correctly
-      * If not, you can toggle the tolerance and rerun the mask
-            * Higher tolerance = more aggressive masking
+   * If not, you can toggle the tolerance and rerun the mask
+      * Higher tolerance = more aggressive masking
 
 V. Align Photos
 a. Aligning the photos creates a sparse cloud model of the object – a
