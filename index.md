@@ -13,7 +13,7 @@
         * As of 2-26-19, the MSU Digital Scholarship Lab in the Library has not updated from Agisoft Photoscan
     * If you create models using Photoscan, they can be opened in Metashape but projects started in Metashape cannot be opened in Photoscan
     
-**Metashape Workflow**
+## **Metashape Workflow**
 * Create a mask before opening Metashape – see other handout on how to do this
 
 ### I. Open Metashape
