@@ -8,7 +8,6 @@
     * Meshroom
     * ColMap
     * Autodesk ReCap
-
 * Agisoft Metashape (née Photoscan) is used by many in the humanities field
     * This is what is available in the DHI Lab
         * As of 2-26-19, the MSU Digital Scholarship Lab in the Library has not updated from Agisoft Photoscan
@@ -18,7 +17,6 @@
 * Create a mask before opening Metashape – see other handout on how to do this
 
 ### I. Open Metashape
-
 * **Tools --> Preferences --> GPU** – select the listed graphics card and make sure that the option to “use CPU when performing GPU accelerated processing” is selected (at the bottom of the window)
     * This accelerates the processing time for model-building
 
