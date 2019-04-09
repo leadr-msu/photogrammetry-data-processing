@@ -31,17 +31,16 @@ accelerated processing” is selected (at the bottom of the window)
 * **File --> Save As** – name the project
 
 ### III. Add Photos
-a. Click Add Chunk icon then Add Photos icon or File  Add
-Photos
-i. Terminology: ‘camera’ = an individual photo in Agisoft
-ii. Highlight/select all the photos you want to include then click
-Open
 
-b. In photo pane, highlight all the photos from one rotation/pass
-i. Right click  Move Cameras  New Camera Group
-1. Do this for all three rotations of your photos
-2. This tells the Agisoft that all photos in this folder are
-from the same pass to help it align the photos
+* Click Add Chunk icon then Add Photos icon or **File --> Add
+Photos**
+      * Terminology: ‘camera’ = an individual photo in Agisoft
+      * Highlight/select all the photos you want to include then click **Open**
+
+* In photo pane, highlight all the photos from one rotation/pass
+      * **Right click --> Move Cameras --> New Camera Group**
+            * Do this for all three rotations of your photos
+            * This tells the Agisoft that all photos in this folder are from the same pass to help it align the photos
 
 IV. Apply Mask
 a. File  Import  Import Masks
