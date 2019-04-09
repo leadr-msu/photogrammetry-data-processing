@@ -35,11 +35,11 @@
 ### IV. Apply Mask
 * **File --> Import --> Import Masks**
 * Presets that should be selected:
-   * Method: From Background
-   * Operation: Replacement
-   * Filename template: likely this will just be mask.jpg
-   * Tolerance: 25 (can be changed depending on how the mask performs)
-   * Apply to: All cameras
+   * **Method: From Background**
+   * **Operation: Replacement**
+   * **Filename template:** likely this will just be mask.jpg
+   * **Tolerance: 25** (can be changed depending on how the mask performs)
+   * **Apply to: All cameras**
 * You will be prompted to choose the folder where the mask is housed – it needs to create a path to that image
    * Navigate to where the mask is located – the actual maskimage will not be shown in the folder
       * Click **Okay**
