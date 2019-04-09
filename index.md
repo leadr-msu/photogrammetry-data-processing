@@ -23,14 +23,12 @@
     * This accelerates the processing time for model-building
 
 ### II. Create a new project
-
 * **File --> Save As** – name the project
 
 ### III. Add Photos
 * Click Add Chunk icon then Add Photos icon or **File --> Add Photos**
     * Terminology: ‘camera’ = an individual photo in Agisoft
     * Highlight/select all the photos you want to include then click **Open**
-
 * In photo pane, highlight all the photos from one rotation/pass
     * **Right click --> Move Cameras --> New Camera Group**
         * Do this for all three rotations of your photos
