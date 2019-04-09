@@ -88,10 +88,12 @@
    * On the toolbar, select the bounding region icon
    
    <img src="img/img6.png" width="70%"> 
-   
-      * Rotate the region so that the object is lined up with the edges and walls of the box
-      * Resize the region by clicking and dragging the corners so that the box closely encompasses the object
-      * This process tells Agisoft to ignore everything outside of the bounding region and to only build what is within it – this decreases rendering time as well as editing time in the next step
+ 
+     * Rotate the region so that the object is lined up with the edges and walls of the box
+     * Resize the region by clicking and dragging the corners so that the box closely encompasses the object
+     * This process tells Agisoft to ignore everything outside of the bounding region and to only build what is within it – this decreases rendering time as well as editing time in the next step
+         
+ <img src="img/img7.png" width="70%"> 
 
 ### VII. Build the Dense Cloud
 * On the toolbar, click **Workflow --> Batch Process --> Add --> Build Dense Cloud** (if Align Photos and Optimize Photos are still within the window/queue, highlight and Remove them
@@ -109,6 +111,8 @@
 * Edit the dense cloud with the **Free-Form Selection** tool like with the sparse cloud – click, drag, and delete
    * Also, delete all the points that are not part of the model – any scale bars, supports, etc.
    * If bad points are left around the borders, edges, or surface of the object in the dense cloud, they are likely to be included in the final model so be meticulous in this step
+
+<img src="img/img8.png" width="70%"> 
 
 ### IX. Build the Mesh and Texture
 * Building the mesh and texture closes the gaps between the points in the dense clouds by creating a mesh using polygons then adds the textures interpreted from the photos onto that mesh, creating a life-like 3D model
@@ -174,6 +178,9 @@
 * Repeat these steps until you have at least 4 markers per chunk – more is better and will give you a more accurate merged model
    * Make sure that all markers are in the exact same place per chunk and in the exact same order
       * i.e. the placement of Marker 3 is in the exact same location for both chunks
+      
+      <img src="img/img9.png" width="70%"> 
+      
 * Once you have all your markers placed on both chunks, click on **Workflow --> Batch Process**
    * **Add: Align chunks** (make sure both chunks are selected in the dialogue box)
       * **General** presets:
