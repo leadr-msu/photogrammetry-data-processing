@@ -1,27 +1,23 @@
 # Modeling Workshop 2: Data Processing
 
 **Data processing for photogrammetry**
- Numerous programs available for photogrammetric model building
-o
-o Agisoft
-o 3DF Zephyr
-o RealityCapture
-o Meshroom
-o ColMap
-o Autodesk ReCap
-
- Agisoft Metashape (née Photoscan) is used by many in the humanities
-field
-o This is what is available in the DHI Lab
- As of 2-26, the MSU Digital Scholarship Lab in the Library
-has not updated from Agisoft Photoscan
+* Numerous programs available for photogrammetric model building
+    * Agisoft
+    * 3DF Zephyr
+    * RealityCapture
+    * Meshroom
+    * ColMap
+    * Autodesk ReCap
 
-o If you create models using Photoscan, they can be opened in
-Metashape but projects started in Metashape cannot be opened in
-Photoscan
-Metashape Workflow
-**Create a mask before opening Metashape – see other handout on how to do
-this**
+* Agisoft Metashape (née Photoscan) is used by many in the humanities
+field
+    * This is what is available in the DHI Lab
+        * As of 2-26-19, the MSU Digital Scholarship Lab in the Library has not updated from Agisoft Photoscan
+    * If you create models using Photoscan, they can be opened in Metashape but projects started in Metashape cannot be opened in Photoscan
+    
+**Metashape Workflow**
+* Create a mask before opening Metashape – see other handout on how to do
+this
 I. Open Metashape
 a. Tools  Preferences  GPU – select the listed graphics card and
 make sure that the option to “use CPU when performing GPU
