@@ -65,46 +65,29 @@
 * If completed correctly, you should see a rough model of the object
 
 ### VI. Edit the sparse cloud (the rough model)
-* Rotate the model by left-clicking and dragging, pan the model by
-right-clicking and dragging, zoom in and out with the click wheel
+* Rotate the model by left-clicking and dragging, pan the model by right-clicking and dragging, zoom in and out with the click wheel
 * There will likely be free floating data points around the model
 * Use the **Free-Form Selection** tool
    * Left click and drag to highlight the floating points that are not part of the object – they should turn pink
       * Click **Delete** on the keyboard to delete the points
-         * Repeat this step until you have a mostly clean model
-1. Hit the spacebar to toggle between panning/rotating
-with the mouse and the free-form selection tool
-
-d. Change the bounding region – the bounding region is the box
-around the model
-
-i. On the toolbar, select the bounding region icon
-1. Rotate the region so that the object is lined up with
-the edges and walls
-of the box
-2. Resize the region
-by clicking and
-dragging the
-corners so that the
-box closely
-encompasses the object
-3. This process tells Agisoft to ignore everything outside
-of the bounding region and to only build what is within
-it – this decreases rendering time as well as editing
-time in the next step
+   * Repeat this step until you have a mostly clean model
+      * Hit the spacebar to toggle between panning/rotating with the mouse and the free-form selection tool
+* Change the bounding region – the bounding region is the box around the model
+   * On the toolbar, select the bounding region icon
+      * Rotate the region so that the object is lined up with the edges and walls of the box
+      * Resize the region by clicking and dragging the corners so that the box closely encompasses the object
+      * This process tells Agisoft to ignore everything outside of the bounding region and to only build what is within it – this decreases rendering time as well as editing time in the next step
 
 ### VII. Build the Dense Cloud
-* On the toolbar, click **Workflow --> Batch Process --> Add --> Build Dense Cloud** (if Align Photos and Optimize Photos are still within
-the window/queue, highlight and Remove them
-* General presets:
-   * Quality: Medium (redo on High if there are errors – Medium is usually fine and is smaller data-wise than High)
-
-c. Advanced presets – all should be correct
-i. Depth filtering: Aggressive
-ii. Reuse depth maps – unchecked
-iii. Calculate point colors – checked
-d. Click Okay
-i. This step will take longer than aligning the photos
+* On the toolbar, click **Workflow --> Batch Process --> Add --> Build Dense Cloud** (if Align Photos and Optimize Photos are still within the window/queue, highlight and Remove them
+* **General** presets:
+   * **Quality: Medium** (redo on High if there are errors – Medium is usually fine and is smaller data-wise than High)
+* **Advanced** presets – all should be correct
+   * **Depth filtering: Aggressive**
+   * **Reuse depth maps** – unchecked
+      * **Calculate point colors** – checked
+* Click **Okay**
+   * This step will take longer than aligning the photos
 
 VIII. Editing the Dense Cloud
 a. Once the model is finished building, you will need to click on the
